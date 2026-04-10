@@ -1,4 +1,5 @@
 <?php require "includes/header.php" ?>
+<?php require "database/connection.php" ?>
 
 <?php
 //TODO: Implementeer dat de pagina de juiste auto laat zien op basis van de query paramater 'name'
@@ -8,7 +9,9 @@
 //    echo "Toon details van auto met naam: " . htmlspecialchars($name);
 //} else {
 //    echo "Geen auto opgegeven.";
-//}
+//} 
+
+
 
 
 
@@ -37,7 +40,7 @@
                 </div>
                 <div class="grid">
                     <div class="row"><span class="accent-color">Steering</span><span>Manual</span></div>
-                    <div class="row"><span class="accent-color">Gasoline</span><span>70L</span></div>
+                    <div class="row"><span class="accent-color">Gasoline</span><span>80L</span></div>
                 </div>
                 <div class="call-to-action">
                     <div class="row"><span class="font-weight-bold">€80,00</span> / dag</div>
